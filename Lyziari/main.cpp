@@ -10,7 +10,10 @@ int main()
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF); //na kontrolu memory leakov
 	srand(time(NULL)); //inicializacia random generatora
 
-	Slalom grandprix((char*)"data.txt");
+	char input[100];
+	scanf("%s", input);
+
+	Slalom grandprix((char*)input);
 	grandprix.zorad();
 	grandprix.vypis();
 

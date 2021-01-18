@@ -17,6 +17,5 @@ public:
 	void vymen(Sportovec& a, Sportovec& b);
 	void vypis();
 	~Slalom();
-
 };
 
