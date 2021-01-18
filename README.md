@@ -27,7 +27,7 @@ public:
 	Pole(unsigned pocet = 0) : aPocet(pocet), aPole(aPocet != 0 ? new int[aPocet] : nullptr) {}
 };
 ```
-doplňte metódu alebo operátor, ktorý ku každému prvku poľa s hodnotou 0 pripočíta zadanú konštantnú hodnotu.
+doplňte metódu alebo operátor (5 b), ktorý ku každému prvku poľa s hodnotou 0 pripočíta zadanú konštantnú hodnotu.
 
 ## B. Aplikácia
 Vytvorte projekt pre konzolovú aplikáciu (1b), ktorá:
