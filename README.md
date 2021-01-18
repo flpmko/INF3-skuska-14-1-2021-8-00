@@ -46,11 +46,11 @@ Vytvorte projekt pre konzolovú aplikáciu (1b), ktorá:
 
 - (6 b) Na konzolu vypíšte zoznam lyžiarov, usporiadaný podľa dosiahnutého času rastúco:
 
-		Priezvisko
+	  Priezvisko
 
-		Meno
+	  Meno
 
-		Dosiahnutý čas v tvare MM:SS (MM - minúty, SS - sekundy)
+	  Dosiahnutý čas v tvare MM:SS (MM - minúty, SS - sekundy)
 
 ## Inštrukcie
 Program vytvorte vo vývojovom prostredí Visual .net. Po vypracovaní riešenia do ZIP súboru spakujte súbory:
