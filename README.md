@@ -25,8 +25,6 @@ private:
 	int* aPole = nullptr;
 public:
 	Pole(unsigned pocet = 0) : aPocet(pocet), aPole(aPocet != 0 ? new int[aPocet] : nullptr) {}
-	void pripocitajKonstatnuHodnotu(int cislo);
-	~Pole();
 };
 ```
 doplňte metódu alebo operátor, ktorý ku každému prvku poľa s hodnotou 0 pripočíta zadanú konštantnú hodnotu.
@@ -48,11 +46,11 @@ Vytvorte projekt pre konzolovú aplikáciu (1b), ktorá:
 
 - (6 b) Na konzolu vypíšte zoznam lyžiarov, usporiadaný podľa dosiahnutého času rastúco:
 
-	Priezvisko
+		Priezvisko
 
-	Meno
+		Meno
 
-	Dosiahnutý čas v tvare MM:SS (MM - minútz, SS - sekundy)
+		Dosiahnutý čas v tvare MM:SS (MM - minúty, SS - sekundy)
 
 ## Inštrukcie
 Program vytvorte vo vývojovom prostredí Visual .net. Po vypracovaní riešenia do ZIP súboru spakujte súbory:
